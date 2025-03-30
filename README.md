@@ -10,6 +10,7 @@ Tüm listener’lar tek bir Thread Group altında konumlandırılmıştır. Anca
 Her senaryoda hemen hemen aynı request’lere istek atılıyor. Bu tekrarın sebebi, her birinin kullanıcı deneyimini farklı şekilde etkiliyor olmasıdır. Örneğin, Test 4'te kullanıcı siteye girip arama alanına "telefon" yazıyor, ardından çıkan ürünü tıklayarak ürün detay sayfasına yönlendiriliyor. Bu işlem, belirli bir yükten sonra diğer kullanıcıların arama çubuğundaki sonuçları görmesini, ürün listesini görüntülemesini veya ürün detay sayfasına ulaşmasını olumsuz etkileyebilir. Bu nedenle, bu senaryolar üzerinden sistemin farklı adımlardaki performansını gözlemlemek önemlidir.
 ________________________________________
 Test Senaryoları Açıklamaları
+
 •	Test 1 – Ana Sayfa Açılış Performans Testi:
 Kullanıcıların ana sayfayı yüklerken karşılaştığı performans ölçülmüştür. Sayfanın erişilebilirlik ve yanıt süresi analiz edilmiştir.
 
